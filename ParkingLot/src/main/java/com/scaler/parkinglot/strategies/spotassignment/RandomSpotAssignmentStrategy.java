@@ -17,7 +17,8 @@ public class RandomSpotAssignmentStrategy implements SpotAssignmentStrategy {
 //        List<ParkingSpot> parkingSpots = ParkingSpotRepository.getParkingSpotsByLot();
 //
 //        for (ParkingSpot parkingSpot: parkingSpots) {
-//            if (parkingSpot.getParkingSpotStatus().equals(ParkingSpotStatus.AVAILABLE) && parkingSpot.getSupportedVehicleTypes().contains(vehicleType)) {
+//            if (parkingSpot.getParkingSpotStatus().equals(ParkingSpotStatus.AVAILABLE)
+//            && parkingSpot.getSupportedVehicleTypes().contains(vehicleType)) {
 //                return parkingSpot;
 //            }
 //        }

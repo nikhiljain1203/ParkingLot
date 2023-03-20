@@ -8,7 +8,8 @@ import java.util.List;
 import java.util.Map;
 
 public class TicketRepository {
-    private Map<Long, Ticket> tickets = new HashMap<>();
+    private Map<Long, Ticket> tickets =
+        new HashMap<>();
     private Long idSequence = 0L;
     public Ticket save(Ticket ticket) {
         idSequence += 1;
